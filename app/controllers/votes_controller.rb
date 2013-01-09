@@ -4,4 +4,5 @@ class VotesController < ApplicationController
 		vote = topic.votes.build
 		vote.save!
 		redirect_to(topics_path)
+	end
 end
